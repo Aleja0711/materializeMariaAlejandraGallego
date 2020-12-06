@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/materialize.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
+    <title>Document</title>
+</head>
+<body style="background-color:rgb(0, 255, 242)">
+<font face="Comic Sans MS,arial,verdana" color="red">
+    <div class="container">
+        <!--Seleccion I:Titulo-->
+            <nav>
+                <div class="nav-wrapper">
+                    <a href="http://oferta.senasofiaplus.edu.co/sofia-oferta/" class="brand-logo">SENA</a>
+                    <ul id="nav-mobile" class="right hide-on-med-and-down">
+                        <li><a href="conocenos.html">Conocenos</a></li>
+                        <li><a href="sedes.html">Sedes</a></li>
+                        <li><a href="contactanos.html">Contactanos</a></li>
+                        <li><a href="index.html">Registrarme</a></li>
+                    </ul>
+                </div>
+            </nav>
+            <div class="center aling">
+                <h4>Formulario de Persona</h4>
+            </div>
+        <!--Seccion II:Contiene el Formulario-->
+        <div class="row">
+            <form class="col s12">
+                <!--Primer fila-->
+                <div class="row">
+                    <div class="input-field col s6">
+                        <input type="text" class="validate" id="first_name">
+                        <label for="first_name">
+                            <i class="material-icons">
+                                account_box
+                            </i>
+                            Nombre
+                        </label>
+                    </div>
+                    <div class="input-field col s6">
+                        <input type="text" class="validate" id="last_name">
+                        <label for="last_name">
+                            <i class="material-icons">
+                                account_box
+                            </i>
+                            Apellidos
+                        </label>
+                    </div>
+                </div>
+                <!--Segunda fila-->
+                <div class="row">
+                        <div class="input-field col s6">
+                            <input type="number" class="validate" id="age_name">
+                            <label for="age_name">
+                                <i class="material-icons">
+                                    apps
+                                </i>
+                                Edad
+                            </label>
+                        </div>
+                        <div>
+                            <div class="input-field col s3">
+                                <form action="#">
+                                    <p>
+                                    <label>
+                                        <input name="group1" type="radio" class="with-gap"/>
+                                        <span>Femenino</span>
+                                    </label>
+                                    </p>
+                                </form>
+                            </div>
+                            <div class="input-field col s3">
+                                <form action="#">
+                                    <p>
+                                        <label>
+                                        <input name="group1" type="radio"class="with-gap" />
+                                        <span>Masculino</span>
+                                        </label>
+                                    </p>
+                                </form>
+                            </div>     
+                        </div>
+                    <div class="input-field col s12">
+                            <div class="input-field col s2"></div>
+                            <div class="input-field col s6">
+                                <select class="browser-default">
+                                    <option value="" disabled selected>Seleccione su estado civil</option>
+                                    <option value="1">Solter@</option>
+                                    <option value="2">Casado@</option>
+                                    <option value="3">Separad@</option>
+                                    <option value="4">Union libre</option>
+                                    <option value="5">Pareja de hecho</option>
+                                </select>
+                            </div>
+                    </div>
+                    <div class="input-field col s6">
+                        <select class="browser-default">
+                            <option value="" disabled selected>Tipo de documento</option>
+                            <option value="1">C.C</option>
+                            <option value="2">Pssaporte</option>
+                            <option value="3">C.E</option>
+                            <option value="4">NUIP</option>
+                            <option value="5">Tarjeta Militar</option>
+                            <option value="6">PEP</option>
+                        </select>
+                    </div>
+                    <div class="input-field col s6">
+                        <input type="number" class="validate" id="iD_name">
+                        <label for="iD_name">
+                            <i class="material-icons">
+                                apps
+                            </i>
+                            Numero de identificacion
+                        </label>
+                    </div>
+                    <div class="input-field col s6">
+                        <input type="number" class="validate" id="Tel_name">
+                        <label for="Tel_name">
+                            <i class="material-icons">
+                                contact_phone
+                            </i>
+                            Telefono
+                        </label>
+                    </div>
+                    <div class="input-field col s6">
+                        <input type="email" class="validate" id="email_name">
+                        <label for="email_name">
+                            <i class="material-icons">
+                                contact_mail
+                            </i>
+                            Email
+                        </label>
+                    </div>
+                    <div class="input-field col s6">
+                        <form action="#">
+                            <p>
+                                <label>
+                                    <input type="checkbox" />
+                                    <span>Acepto el tratamiento de mis datos personales</span>
+                                </label>
+                            </p>
+                        </form>
+                    </div>
+                    <div class="input-field col s6">
+                        <form action="#">
+                            <p>
+                                <label>
+                                    <input type="checkbox" />
+                                    <span>Quiero recibir notificaciones a mi correo electronico</span>
+                                </label>
+                            </p>
+                        </form>
+                    </div>
+                    <div class="input-field col s6" >
+                        <button class="btn waves-effect waves-light" type="submit" name="action">
+                            <i class="material-icons">
+                                cloud_done
+                            </i>
+                            Enviar
+                        </button>
+                    </div>
+                    <div class="input-field col s6">
+                        <button class="btn waves-effect waves-light" type="submit" name="action">
+                            <i class="material-icons ">
+                                close
+                            </i>
+                            Cancelar
+                        </button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</font>
+    <script src="funcionesJS/condicionales.js"></script>
+    <script src="js/materialize.min.js"></script>
+</body>
+</html>
